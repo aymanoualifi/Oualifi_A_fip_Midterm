@@ -1,0 +1,388 @@
+@charset "UTF-8";
+
+p {
+  color: white;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+.hidden {
+  display: none;
+}
+/*------------ Font Awesome ------------*/
+
+
+
+/*------------ End Font Awesome ------------*/
+header {
+  position: sticky;
+  top: 0em;
+  background-color: #fff;
+  border-bottom: 0 solid #e6e6e6;
+  box-shadow: 0px 5px 8px #888;
+  margin-top: -1em;
+
+
+ }
+
+
+  .logo {
+     grid-column: 1 / span 1;
+  }
+
+  .logo img {
+     padding: 1.5em;
+     width: 8%;
+  }
+
+  /*------------ Start Nav Styling ------------*/
+
+  .nav {
+     grid-column: 2 / span 3;
+     padding-bottom: 1em;
+     margin-top: -2.5em;
+  }
+
+  nav ul {
+     margin: 0 2em;
+     padding: 0em 2em;
+     text-decoration: none;
+     text-align: end;
+
+  }
+
+  nav li {
+     display: inline;
+     margin-right: 4em;
+  }
+
+  nav li:last-child{
+     margin-right: 1em;
+ }
+
+ nav li a {
+    color: #626262;
+    font-size: inherit;
+    text-decoration: none;
+ }
+ nav li a:hover{
+  padding-bottom: .5em;
+  border-bottom: 3px solid #BBA14F;
+}
+
+nav li a.active{
+padding-bottom: .5em;
+border-bottom: 3px solid #BBA14F;
+ }
+
+
+#PromoSection {
+  display: flex;
+  align-items: center;
+  background: #666666;
+  overflow: hidden;
+  height: 625px;
+}
+
+
+#PromoSection p {
+  margin-left: 50px;
+  line-height: 50px;
+  font-size: 50px;
+
+}
+#PromoSection {
+  display: flex;
+  align-items: center;
+  background: #152238;
+  overflow: hidden;
+  height: 625px;
+}
+
+#PromoSection p {
+  margin-left: 50px;
+  line-height: 50px;
+  font-size: 50px;
+
+}
+
+
+#PromoImage {
+  width: 1000px;
+  background-color: gray;
+  text-align: center;
+  height: 400px;
+}
+#PromoImage2 {
+  width: 1000px;
+  text-align: center;
+  height: 200px;
+}
+
+#PromoImage p {
+  text-align: center;
+  margin-top: 170px;
+}
+
+  #HomepageTitle h1 {
+    width: 400px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 50px;
+    margin-left: 100px;
+    margin-right: 75px;
+    text-align: left;
+  }
+
+  #HomepageTitle p {
+    width: 400px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #fff;
+    line-height: 20px;
+    margin-left: 100px;
+    margin-right: 75px;
+    text-align: left;
+  }
+
+  #mainFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #cccccc;
+    overflow: hidden;
+    padding: 15px;
+  }
+  #copyRight {
+  background-color: darkgray;
+  float:right;
+  width: 300px;
+  margin-left: 250px;
+}
+#footer {
+float:right;
+width: 500px;
+height: 50px;
+font-size: 18px;
+}
+
+#contactForm{
+  width: 470px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#contactForm h1 {
+  width: 400px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 50px;
+  margin-right: 75px;
+  text-align: left;
+}
+
+#contactForm h2 {
+  background-color: darkgrey;
+  width: 420px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #fff;
+  line-height: 50px;
+  margin-right: 0px;
+  text-align: center;
+}
+
+
+#contactForm h3 {
+  background-color: darkgrey;
+  width: 420px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #fff;
+  line-height: 50px;
+  margin-right: 0px;
+  text-align: center;
+}
+
+#contactForm h4 {
+  background-color: darkgrey;
+  width: 420px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #fff;
+  line-height: 50px;
+  margin-right: 0px;
+  text-align: center;
+}
+
+#contactForm h5 {
+  background-color: darkgrey;
+  width: 420px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #fff;
+  line-height: 200px;
+  margin-right: 0px;
+  text-align: center;
+}
+#contactForm h6 {
+  background-color: darkgrey;
+  width: 180px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #fff;
+  line-height: 50px;
+  margin-right: 10px;
+  text-align: center;
+}
+#AdvertisementSection {
+  width: 1000px;
+  margin: auto;
+}
+.Advertisement img {
+
+
+}
+
+.Advertisement p {
+  font-size: 100px;
+
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width:100%;
+}
